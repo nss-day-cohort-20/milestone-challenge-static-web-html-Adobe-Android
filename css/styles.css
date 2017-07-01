@@ -1,0 +1,45 @@
+/*
+Color Scheme
+--------------------
+#2979ff - Primary
+#004ecb - Secondary
+#75a7ff - Tertiary
+*/
+body {
+  background-color: #2979ff;
+  text-align: center;
+}
+
+.border-color {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+  border:2px dotted #004ecb;
+  margin-bottom: 1em;
+  background-color: #75a7ff;
+
+}
+
+.header-color {
+  background-color: #004ecb;
+  margin: auto;
+  margin-bottom: 1em;
+  width: 95%;
+  padding: 10px;
+}
+
+.crop {
+    display: inline-block;
+    border-radius: 40%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.crop img {
+
+    width: 400px;
+    height: 400px;
+    margin: -20px 0 0 -90px;
+}
